@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net9.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+
+        <!-- NuGet Package Metadata -->
+        <PackageId>TeymurDevv.ResultPattern</PackageId>
+        <Version>1.0.0</Version>
+        <Authors>TeymurDevv</Authors>
+        <Company>TeymurDevv</Company>
+        <Description>A lightweight C# Result Pattern implementation for handling success and failure scenarios in a structured way.</Description>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <RepositoryUrl>https://github.com/TeymurDevv/TeymurDevv.ResultPattern</RepositoryUrl>
+        <PackageProjectUrl>https://github.com/TeymurDevv/TeymurDevv.ResultPattern</PackageProjectUrl>
+        <RepositoryType>git</RepositoryType>
+        <PackageTags>Result Pattern, Functional Programming, C#, Error Handling</PackageTags>
+        <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+
+        <!-- Package Output -->
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <IncludeSymbols>true</IncludeSymbols>
+        <IncludeSource>true</IncludeSource>
+    </PropertyGroup>
+
+</Project>
